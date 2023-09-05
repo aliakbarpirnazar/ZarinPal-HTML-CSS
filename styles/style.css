@@ -284,9 +284,19 @@ header {
     justify-content: space-between;
 }
 
-.online-payment img {
+.section-image {
     width: 450px;
     height: 480px;
+}
+
+.section-image-lg {
+    width: 680px;
+    height: 530px;
+}
+
+.section-image-sm {
+    width: 408px;
+    height: 266px;
 }
 
 .section-text {
