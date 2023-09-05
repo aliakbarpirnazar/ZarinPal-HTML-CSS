@@ -408,6 +408,21 @@ header {
     .online-payment {
         width: 940px;
     }
+    .section-image {
+        width: 502px;
+        height: 518px;
+    }
+    
+    .section-image-lg {
+        width: 500px;
+        height: 423px;
+    }
+    
+    .section-image-sm {       
+        width: 408px;
+        height: 266px;
+    }
+    
 }
 
 @media (max-width: 990px) {
@@ -493,9 +508,18 @@ header {
     .banner-text p {
       text-align: justify;
     }
-    .online-payment .section-image {
+    .section-image {
         display: none;
     }
+    
+    .section-image-lg {
+        display: none;
+    }
+    
+    .section-image-sm {       
+        display: none;
+    }
+   
     .section-text {
         width: 80%;
         padding: 0 10px;
